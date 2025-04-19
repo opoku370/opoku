@@ -22,6 +22,20 @@ September 2017 – November 2021
 
 ## WORK EXPERIENCE 
 -----------------
+Job Title: Data Analyst
+
+Organization: National Health Insurance Scheme
+
+Date: December 2022 - May 2024
+
+Job Description: 
+-	Conducted in-depth analysis of healthcare claims and utilization data to support policy-making and fraud detection.
+-	Built SQL queries and data models to clean, transform, and analyze large datasets for improved decision-making.
+-	Designed and maintained dashboards using Tableau to track healthcare trends and performance indicators.
+-	Worked closely with data engineers to collect missing data and optimize database structures for efficiency.
+-	Provided strategic insights to senior management, aiding in the optimization of health insurance processes and cost control.
+
+------------------
 Job Title: Junior Data Analyst
 
 Organization: Swedru Government Hospital
@@ -35,19 +49,6 @@ Job Description:
 -	Track pharmaceutical costs and project future demand using sophisticated Excel-based analysis including pivot tables and VLOOKUP.
 -	Created SQL queries to monitor and detect irregularities in drug dispensing, ensuring compliance with hospital regulations.
 -	Automated data reporting processes using Excel macros and SQL queries, reducing manual workload by 30%.
------------------
-Job Title: Data Analyst
-
-Organization: National Health Insurance Scheme
-
-Date: December 2022 - May 2024
-
-Job Description: 
--	Conducted in-depth analysis of healthcare claims and utilization data to support policy-making and fraud detection.
--	Built SQL queries and data models to clean, transform, and analyze large datasets for improved decision-making.
--	Designed and maintained dashboards using Tableau to track healthcare trends and performance indicators.
--	Worked closely with data engineers to collect missing data and optimize database structures for efficiency.
--	Provided strategic insights to senior management, aiding in the optimization of health insurance processes and cost control.
 
 ## PROJECTS
 ----------------
