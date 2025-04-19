@@ -2,6 +2,4 @@ title: EMMANUEL OPOKU
 logo: https://github.com/opoku370/opoku/blob/main/profile_pic.png
 description: Data Analyst
 show_downloads: False
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme 
+theme: jekyll-theme-minimal
