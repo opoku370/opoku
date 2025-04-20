@@ -20,35 +20,7 @@ Bachelor’s Degree, Chemistry
 
 September 2017 – November 2021
 
-## WORK EXPERIENCE 
------------------
-Job Title: Data Analyst
 
-Organization: National Health Insurance Scheme
-
-Date: December 2022 - May 2024
-
-Job Description: 
--	Conducted in-depth analysis of healthcare claims and utilization data to support policy-making and fraud detection.
--	Built SQL queries and data models to clean, transform, and analyze large datasets for improved decision-making.
--	Designed and maintained dashboards using Tableau to track healthcare trends and performance indicators.
--	Worked closely with data engineers to collect missing data and optimize database structures for efficiency.
--	Provided strategic insights to senior management, aiding in the optimization of health insurance processes and cost control.
-
-------------------
-Job Title: Junior Data Analyst
-
-Organization: Swedru Government Hospital
-
-Date: September 2021 - October 2022
-
-Job Description: 
--	Utilized SQL to query large dataset from the company’s database, extracting critical insights on Patients details, which contributed to improve healthcare.
--	Extracted, cleaned, and examined the hospital medication usage data using SQL to spot trends and thereby improving procurement plans.
--	Created interactive dashboards in Tableau to show inventory levels, prescription trends, and adverse drug reaction reports.
--	Track pharmaceutical costs and project future demand using sophisticated Excel-based analysis including pivot tables and VLOOKUP.
--	Created SQL queries to monitor and detect irregularities in drug dispensing, ensuring compliance with hospital regulations.
--	Automated data reporting processes using Excel macros and SQL queries, reducing manual workload by 30%.
 
 ## PROJECTS
 ----------------
@@ -61,7 +33,7 @@ Job Description:
 ## SKILLS
 ------------
 
-Python, Data Visualization, SQL, Tableau, Microsoft Excel, Insights, Reports, Problem solver, Critical thinking, Team goal Oriented and collaboration.
+Python, Machine learning Models ,Data Visualization, SQL, Tableau, Microsoft Excel, Insights, Reports, Problem solver, Critical thinking, Team goal Oriented and collaboration.
 
 EXPERTISE TECHNOLOGIES
 --------------
@@ -71,6 +43,9 @@ Python:
 -	NumPy: Numerical Computations
 -	Matplotlib & Seaborn: Data Visualizations
 -	Jupyter Notebook: Interactive development and data Analysis environment
+- Model Selection and Training: Supervised and unsupervised algorithms such as Linear/Logistic Regression, Decision Trees, Random Forest, K-Nearest Neighbors (KNN), Naïve Bayes, Support Vector Machines (SVM), Gradient Boosting (e.g., XGBoost, and Clustering (K-Means).
+- Model Evaluation: Metrics such as Accuracy, Precision, Recall, F1-Score, AUC-ROC, Confusion Matrix, MAE, and RMSE to ensure robustness and generalizability.
+
 
 Tableau:
 
