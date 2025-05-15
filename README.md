@@ -28,6 +28,8 @@ September 2017 – November 2021
 
 [Tableu Project on Data Co Supply Chain](https://public.tableau.com/app/profile/emmanuel.opoku3814/viz/SupplyChainTableauDashboard/SalesDashboard?publish=yes )
 
+[PREDICTING DIABETES FROM BASIC HEALTH DATA: A MACHINE LEARNING APPROACH   ](https://opoku370.github.io/diabetes_predictive_analysis/)
+
 
 
 ## SKILLS
