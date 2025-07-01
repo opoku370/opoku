@@ -24,7 +24,7 @@ September 2017 – November 2021
 ## PROJECTS
 ----------------
 
-[Data Co Supply Chain Analysis](https://opoku370.github.io/ )
+[Data Co Supply Chain Analysis](https://opoku370.github.io/supply-chain-analysis/ )
 
 [Tableu Project on Data Co Supply Chain](https://public.tableau.com/app/profile/emmanuel.opoku3814/viz/SupplyChainTableauDashboard/SalesDashboard?publish=yes )
 
