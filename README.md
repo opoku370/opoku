@@ -23,6 +23,7 @@ September 2017 – November 2021
 
 ## PROJECTS
 ----------------
+[Bike Data Lakehouse](https://github.com/opoku370/bike_data_lakehouse)
 
 [Data Co Supply Chain Analysis](https://opoku370.github.io/supply-chain-analysis/ )
 
