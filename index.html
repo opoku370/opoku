@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Emmanuel Opoku — Data Analyst. Pipelines, SQL, and decisions from data. Portfolio case studies in lakehouse engineering, supply chain analytics, and healthcare ML." />
+  <title>Emmanuel Opoku · Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="site-nav" aria-label="Primary">
+    <a class="nav-brand" href="#top">Emmanuel Opoku</a>
+    <button
+      type="button"
+      class="nav-toggle"
+      id="navToggle"
+      aria-controls="navMenu"
+      aria-expanded="false"
+      aria-label="Open menu"
+    >
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+    </button>
+    <ul class="nav-links" id="navMenu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#approach">Approach</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-visual" aria-hidden="true">
+      <canvas class="flow-canvas" id="flowCanvas"></canvas>
+      <div class="hero-scrim"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="hero-brand">Emmanuel Opoku</h1>
+      <p class="hero-headline">Data Analyst · pipelines, SQL, and decisions from data</p>
+      <p class="hero-support">
+        Case studies that move from raw sources to analytics-ready insight — lakehouse engineering, supply-chain BI, and healthcare prediction.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#work">View case studies</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section section-about" id="about">
+      <div class="section-inner reveal">
+        <h2 class="section-title">Who I am</h2>
+        <p class="section-lead">Background, education, and what I’m looking for.</p>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              Results-driven data analyst with experience across analytics, business intelligence, and process optimization.
+              I turn messy multi-source data into models and narratives decision-makers can use.
+            </p>
+            <p>
+              Currently completing a Master’s in Data Analytics at the Berlin School of Business and Innovation,
+              with a prior foundation in Chemistry from KNUST and hands-on work spanning healthcare data and operational reporting.
+            </p>
+          </div>
+          <aside class="about-meta">
+            <strong>Education</strong>
+            <span>MSc Data Analytics · BSBI · 2024–2026</span>
+            <strong>Focus</strong>
+            <span>SQL · pipelines · BI · applied ML</span>
+            <strong>Open to</strong>
+            <span>Data Analyst · Analytics Engineer roles</span>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-approach" id="approach">
+      <div class="section-inner reveal">
+        <h2 class="section-title">How I work</h2>
+        <p class="section-lead">The ways I ship insight — not a tool dump.</p>
+        <div class="lanes">
+          <article class="lane">
+            <h3>Data engineering</h3>
+            <p>Medallion pipelines, Spark/Delta, notebook orchestration from raw ingest to analytics-ready tables.</p>
+          </article>
+          <article class="lane">
+            <h3>SQL &amp; modeling</h3>
+            <p>PostgreSQL exploration, normalization, quality tests, and star-schema design for reporting.</p>
+          </article>
+          <article class="lane">
+            <h3>Business intelligence</h3>
+            <p>Interactive Tableau dashboards that surface KPIs, trends, and recommendations for operators.</p>
+          </article>
+          <article class="lane">
+            <h3>Applied machine learning</h3>
+            <p>Feature engineering, model comparison, and evaluation with recall-aware choices for real risk.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-work" id="work">
+      <div class="section-inner">
+        <div class="reveal">
+          <h2 class="section-title">Case studies</h2>
+          <p class="section-lead">Three projects. Each has a live surface matched to what the work actually is.</p>
+        </div>
+
+        <!-- Lakehouse -->
+        <article class="case reveal" id="lakehouse">
+          <div class="case-header">
+            <div>
+              <p class="case-kicker">01 · Data engineering</p>
+              <h3>Bike Data Lakehouse</h3>
+              <p class="case-outcome">
+                Raw CRM &amp; ERP sources → Bronze / Silver / Gold on Databricks, ending in a star schema ready for BI.
+              </p>
+            </div>
+            <div class="case-actions">
+              <a class="btn btn-ghost btn-small" href="https://github.com/opoku370/bike_data_lakehouse" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+          <ul class="stack" aria-label="Tech stack">
+            <li>Databricks</li>
+            <li>Apache Spark</li>
+            <li>Delta Lake</li>
+            <li>Medallion</li>
+            <li>Star schema</li>
+          </ul>
+
+          <div class="pipeline" data-pipeline>
+            <div class="pipeline-tabs" role="tablist" aria-label="Lakehouse layers">
+              <button type="button" class="pipeline-tab is-active" role="tab" aria-selected="true" data-layer="bronze">Bronze</button>
+              <button type="button" class="pipeline-tab" role="tab" aria-selected="false" data-layer="silver">Silver</button>
+              <button type="button" class="pipeline-tab" role="tab" aria-selected="false" data-layer="gold">Gold</button>
+            </div>
+            <div class="pipeline-panel is-active" data-panel="bronze" role="tabpanel">
+              <h4>Bronze — source of truth</h4>
+              <p>Raw ingested CRM and ERP datasets land here with no business transformations. Preserves lineage before cleansing.</p>
+              <ul class="pipeline-list">
+                <li>Ingest from multi-source files</li>
+                <li>Store as Delta tables</li>
+                <li>Orchestrated via notebook run</li>
+              </ul>
+              <p class="pipeline-flow"><span class="active-step">Bronze</span> → Silver → Gold</p>
+            </div>
+            <div class="pipeline-panel" data-panel="silver" role="tabpanel" hidden>
+              <h4>Silver — cleaned &amp; integrated</h4>
+              <p>Standardization, missing-value handling, and CRM/ERP integration so entities can join cleanly downstream.</p>
+              <ul class="pipeline-list">
+                <li>Cleansing and type consistency</li>
+                <li>Cross-source integration</li>
+                <li>Reusable transformation notebooks</li>
+              </ul>
+              <p class="pipeline-flow">Bronze → <span class="active-step">Silver</span> → Gold</p>
+            </div>
+            <div class="pipeline-panel" data-panel="gold" role="tabpanel" hidden>
+              <h4>Gold — analytics model</h4>
+              <p>Business-level star schema: dimension tables for customers and products, plus <code>fact_sales</code> with measures and keys.</p>
+              <ul class="pipeline-list">
+                <li><code>dim_customers</code> · <code>dim_products</code></li>
+                <li><code>fact_sales</code> — sales_amount, quantity, price</li>
+                <li>Surrogate keys via window functions</li>
+              </ul>
+              <p class="pipeline-flow">Bronze → Silver → <span class="active-step">Gold</span></p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Supply chain -->
+        <article class="case reveal" id="supply-chain">
+          <div class="case-header">
+            <div>
+              <p class="case-kicker">02 · Analytics &amp; BI</p>
+              <h3>DataCo Supply Chain</h3>
+              <p class="case-outcome">
+                PostgreSQL analysis of ~180k orders and interactive Tableau dashboards — sales decline, late deliveries, and retention gaps made visible for strategy.
+              </p>
+            </div>
+            <div class="case-actions">
+              <a class="btn btn-primary btn-small" href="https://public.tableau.com/app/profile/emmanuel.opoku3814/viz/SupplyChainTableauDashboard/SalesDashboard?publish=yes" target="_blank" rel="noopener noreferrer">Open Tableau</a>
+              <a class="btn btn-ghost btn-small" href="https://opoku370.github.io/supply-chain-analysis/" target="_blank" rel="noopener noreferrer">Case write-up</a>
+              <a class="btn btn-ghost btn-small" href="https://github.com/opoku370/supply-chain-analysis" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+          <ul class="stack" aria-label="Tech stack">
+            <li>PostgreSQL</li>
+            <li>Excel</li>
+            <li>Tableau</li>
+            <li>EDA</li>
+            <li>Dashboard design</li>
+          </ul>
+
+          <div class="tableau-frame-wrap">
+            <iframe
+              title="DataCo Supply Chain Tableau dashboard"
+              src="https://public.tableau.com/views/SupplyChainTableauDashboard/SalesDashboard?:showVizHome=no&amp;:embed=y&amp;:toolbar=yes"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+            <noscript>
+              <div class="tableau-fallback">
+                <p>JavaScript is off — open the live dashboard on Tableau Public.</p>
+                <a class="btn btn-primary btn-small" href="https://public.tableau.com/app/profile/emmanuel.opoku3814/viz/SupplyChainTableauDashboard/SalesDashboard?publish=yes">Open Tableau dashboard</a>
+              </div>
+            </noscript>
+          </div>
+        </article>
+
+        <!-- Diabetes -->
+        <article class="case reveal" id="diabetes">
+          <div class="case-header">
+            <div>
+              <p class="case-kicker">03 · Machine learning</p>
+              <h3>Diabetes risk from basic health data</h3>
+              <p class="case-outcome">
+                Classifiers trained on age, gender, sugar level, weight, height, and BMI — with SVM preferred for high recall on positive cases.
+              </p>
+            </div>
+            <div class="case-actions">
+              <a class="btn btn-ghost btn-small" href="https://opoku370.github.io/diabetes_predictive_analysis/" target="_blank" rel="noopener noreferrer">Full write-up</a>
+              <a class="btn btn-ghost btn-small" href="https://github.com/opoku370/diabetes_predictive_analysis" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+          <ul class="stack" aria-label="Tech stack">
+            <li>Python</li>
+            <li>scikit-learn</li>
+            <li>SVM · Decision Tree · KNN</li>
+            <li>Feature engineering</li>
+          </ul>
+
+          <div class="predictor">
+            <form class="predictor-form" id="diabetesForm" novalidate>
+              <div class="field-row">
+                <div class="field">
+                  <label for="age">Age (years)</label>
+                  <input id="age" name="age" type="number" min="1" max="100" value="28" required />
+                </div>
+                <div class="field">
+                  <label for="gender">Gender</label>
+                  <select id="gender" name="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="sugar">Sugar level (mg/dL)</label>
+                <input id="sugar" name="sugar" type="number" min="50" max="400" value="145" required />
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="weight">Weight (kg)</label>
+                  <input id="weight" name="weight" type="number" min="30" max="200" step="0.1" value="78" required />
+                </div>
+                <div class="field">
+                  <label for="height">Height (cm)</label>
+                  <input id="height" name="height" type="number" min="120" max="220" step="0.1" value="172" required />
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit">Estimate risk</button>
+              <p class="predictor-note">
+                Interactive demo of the project interface. Scoring here is a transparent rule layer over the same features used in the notebook
+                (BMI + sugar thresholds) — not the serialized SVM. See the write-up for model metrics and selection rationale.
+              </p>
+            </form>
+            <div class="predictor-result" id="predictorResult" data-state="idle" aria-live="polite">
+              <p class="result-label">Result</p>
+              <p class="result-verdict">Enter values to estimate</p>
+              <p class="result-detail">Uses age, gender, sugar, weight, height → BMI, matching the project feature set.</p>
+              <p class="result-meta" id="resultMeta"></p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-inner reveal">
+        <h2 class="section-title">Let’s talk</h2>
+        <p class="section-lead">Open to Data Analyst and Analytics Engineer opportunities.</p>
+        <ul class="contact-links">
+          <li><a href="mailto:emmanuelopoku024578@gmail.com">emmanuelopoku024578@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/opoku3" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/opoku370" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://public.tableau.com/app/profile/emmanuel.opoku3814" target="_blank" rel="noopener noreferrer">Tableau Public</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-inner">
+      <span>© <span id="year"></span> Emmanuel Opoku</span>
+      <span>Data Analyst portfolio</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,5 +1,4 @@
-title: EMMANUEL OPOKU
-logo: profile_pic.png
-description: Data Analyst
-show_downloads: False
-theme: jekyll-theme-minimal
+# GitHub Pages serves the custom static site from index.html.
+# Theme disabled in favor of the Medallion portfolio.
+title: Emmanuel Opoku
+description: Data Analyst — pipelines, SQL, and decisions from data
