@@ -4,7 +4,9 @@ Data Analyst portfolio.
 
 ## Live site
 
-Open [`index.html`](index.html) locally, or visit the GitHub Pages URL for this repository after merge/deploy.
+Open [`index.html`](index.html) locally, or the Cloudflare Workers / Pages URL after deploy (`npx wrangler deploy`).
+
+This is a **static** site (no Jekyll). Deploy config: [`wrangler.jsonc`](wrangler.jsonc).
 
 ## Case studies (source projects)
 
